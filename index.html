@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="file.css">
+</head>
+<body>
+
+<div id="myDIV" class="header">
+  <h2>My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<div>
+<span>Theme:</span>
+        <select id="background">
+          <option value="Black">Black</option>
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
+          <option value="Green">Green</option>
+          <option value="Yellow">Yellow</option>
+          <option value="Violet">Violet</option>
+          <option value="Orange">Orange</option>
+        </select>
+        
+        
+        <div id="myDIV" style="background:black"></div>
+
+</div>
+
+<ul id="myUL">
+  <li>Hit the Gym</li>
+  <li class="checked">Make a To Do List app</li>
+  <li>Assignments</li>
+  <li>Buy buiscuits</li>
+  <li>Read a book</li>
+  <li>Learn JS React</li>
+</ul>
+
+<script src="todolist.js"></script>
+
+
+</body>
+</html>
